@@ -1,0 +1,3 @@
+javac planocartesionano/DrawCanvas.java planocartesionano/Coordenada.java planocartesionano/CGTemplate.java ServidorUDP/udp_servidor.java
+
+java ServidorUDP/udp_servidor

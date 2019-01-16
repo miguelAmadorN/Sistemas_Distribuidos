@@ -1,2 +1,2 @@
 # Sistemas_Distribuidos
-Prácticas y Proyectos del curso de Sistemas Distribuidos
+Prácticas del curso de Sistemas Distribuidos

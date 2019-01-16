@@ -1,0 +1,22 @@
+Servidor: Servidor.cpp PaqueteDatagrama.o SocketDatagrama.o Respuesta.o Solicitud.o Cajero.o
+	g++ Servidor.cpp PaqueteDatagrama.o SocketDatagrama.o Respuesta.o Solicitud.o Cajero.o -o Servidor
+
+PaqueteDatagrama.o: PaqueteDatagrama.cpp
+	g++ PaqueteDatagrama.cpp -c -Wall
+
+SocketDatagrama.o: SocketDatagrama.cpp
+	g++ SocketDatagrama.cpp -c -Wall
+
+Respuesta.o: Respuesta.cpp
+	g++ Respuesta.cpp -c -Wall
+
+Solicitud.o: Solicitud.cpp
+	g++ Solicitud.cpp -c -Wall
+
+Cajero.o: Cajero.cpp
+	g++ Cajero.cpp -c -Wall
+
+.PHONY: clean
+
+clean:
+	rm -f *.o $(PROYECTO)

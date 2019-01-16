@@ -1,0 +1,19 @@
+Cliente: Cliente.cpp PaqueteDatagrama.o SocketDatagrama.o Solicitud.o
+	g++ Cliente.cpp PaqueteDatagrama.o SocketDatagrama.o Solicitud.o -o Cliente
+
+PaqueteDatagrama.o: PaqueteDatagrama.cpp
+	g++ PaqueteDatagrama.cpp -c -Wall
+
+SocketDatagrama.o: SocketDatagrama.cpp
+	g++ SocketDatagrama.cpp -c -Wall
+
+Respuesta.o: Respuesta.cpp
+	g++ Respuesta.cpp -c -Wall
+
+Solicitud.o: Solicitud.cpp
+	g++ Solicitud.cpp -c -Wall
+
+.PHONY: clean
+
+clean:
+	rm -f *.o $(PROYECTO)
