@@ -16,11 +16,11 @@ Generador de coordenadas de Series de Fourier en C++.
 Ejemplo de ejecución
 
 
-![Cliente](../Proyecto_Heregeneo_Graficas_Series_De_Fourier/Cliente.png)
+![Cliente](../Proyecto_Heterogeneo_Graficas_Series_De_Fourier/Cliente.png)
 
-![Servidor](../Proyecto_Heregeneo_Graficas_Series_De_Fourier/Servidor.png)
+![Servidor](../Proyecto_Heterogeneo_Graficas_Series_De_Fourier/Servidor.png)
 
-![Servidor](../Proyecto_Heregeneo_Graficas_Series_De_Fourier/Servidor(2).png)
+![Servidor](../Proyecto_Heterogeneo_Graficas_Series_De_Fourier/Servidor(2).png)
 
-![Servidor](../Proyecto_Heregeneo_Graficas_Series_De_Fourier/Servidor(3).png)
+![Servidor](../Proyecto_Heterogeneo_Graficas_Series_De_Fourier/Servidor(3).png)
 
